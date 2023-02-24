@@ -1,0 +1,14 @@
+import './Piece.css'
+
+function Piece(props){
+    return(
+        <section className="piece">
+           <img src={props.image} />
+           <div>
+                <p>{props.text}</p>
+                <div><img src={props.icon} /></div>
+           </div>
+        </section>
+    )
+}
+export default Piece

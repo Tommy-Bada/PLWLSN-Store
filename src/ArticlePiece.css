@@ -1,0 +1,35 @@
+.article-piece{
+    width: 41rem;
+}
+.article-piece>img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0%;
+}
+.article-piece>div{
+    padding: 1rem;
+}
+.article-piece-title{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.article-piece-date{
+    margin-bottom: 1rem;
+}
+.article-piece-text{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #101010bf;
+}
+
+@media (max-width: 768px){
+    .article-piece{
+        min-width: 100%;
+        margin-right: 2rem;
+        scroll-snap-align: center;
+    }
+    .article-piece>img{
+        height: 18rem;
+    }
+}

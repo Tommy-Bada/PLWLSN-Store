@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima'), url('font/OPTIMA.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Optima Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima Italic'), url('font/Optima_Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Optima Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima Medium'), url('font/Optima\ Medium.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Optima Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Optima Bold'), url('font/OPTIMA_B.woff') format('woff');
+  }
+
+
+  :root {
+  font-family: 'Optima';
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}

@@ -1,0 +1,24 @@
+#article-prop{
+    padding: 3rem;
+}
+#article-prop>h2{
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+#article-prop>div{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px){
+    #article-prop{
+        padding: 2rem;
+    }
+    #article-prop>div{
+        overflow-x: scroll;
+        overscroll-behavior-x: contain ;
+        scroll-snap-type:x mandatory;
+    }
+    #article-prop>div::-webkit-scrollbar {
+        display: none;
+      }
+}

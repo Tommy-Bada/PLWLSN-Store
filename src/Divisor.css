@@ -1,0 +1,26 @@
+#divisor{
+    background:rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#divisor>p{
+    font-size: 1.4rem;
+    color: #101010bf;
+    width: 50%;
+    text-align: center;
+    line-height: 3rem;
+}
+@media (max-width: 768px){
+    #divisor{
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #divisor>p{
+        width: 100%;
+    }
+}

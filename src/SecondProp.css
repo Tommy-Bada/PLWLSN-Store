@@ -1,0 +1,32 @@
+#second-prop{
+    padding: 3rem;
+}
+#second-prop>div{
+    display: flex;
+    column-gap: 3rem;
+}
+#second-prop>h2{
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #101010;
+}
+#second-prop>p{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    color: #101010;
+}
+
+@media (max-width: 768px){
+    #second-prop{
+        padding: 3rem;
+    }
+    #second-prop>div{
+        overflow-x: scroll;
+        column-gap: 3rem;
+        overscroll-behavior-x: contain ;
+        scroll-snap-type:x mandatory;
+    }
+    #second-prop>div::-webkit-scrollbar {
+        display: none;
+    }
+}

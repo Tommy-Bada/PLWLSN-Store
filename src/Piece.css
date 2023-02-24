@@ -1,0 +1,32 @@
+.piece>img{
+    width: 41rem;
+    margin-bottom: 1rem;
+}
+.piece>div{
+    display: flex;
+    align-items: center;
+}
+.piece>div>p{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.piece>div>div>img{
+    width: 1.5rem;
+}
+
+@media (max-width: 768px){
+    .piece{
+        min-width: 15rem;
+        margin-right: 2rem;
+    }
+    .piece>img{
+        width: 100%;
+    }
+    .piece>div>p{
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+    }
+    .piece>div>div>img{
+        width: 1rem;
+    }
+}

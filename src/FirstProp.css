@@ -1,0 +1,15 @@
+#first-prop{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+@media (max-width: 768px){
+    #first-prop{
+        overflow-x: scroll;
+        overscroll-behavior-x: contain ;
+        scroll-snap-type:x mandatory;
+    }
+    #first-prop::-webkit-scrollbar {
+        display: none;
+    }
+}

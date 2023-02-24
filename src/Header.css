@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+#header-links>li{
+    display: inline;
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+}
+.logo{
+    font-size: 3.2rem;
+    width: 40%;
+    font-family: 'Optima Bold';
+}
+.cart-icon{
+    width: 4rem;
+}
+#hamburger-icon{
+    display: none;
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 2rem;
+    }
+    #hamburger-icon{
+        display:block;
+    }
+    #hamburger-icon:hover{
+        cursor: pointer;
+    }
+    .line{
+        background-color: black;
+        width: 4rem;
+        height: 0.4rem;
+        margin-bottom: 0.8rem;
+    }
+    #header-links{
+        display: none;
+    }
+    .logo{
+        font-size: 2.8rem;
+        width: fit-content;
+        font-family: 'Optima Bold';
+    }
+    .cart-icon{
+        width: 3rem;
+    }
+}
