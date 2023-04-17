@@ -1,0 +1,29 @@
+#cart-section{
+    background:rgb(239, 239, 239);
+    padding: 5rem;
+}
+.cart{
+    background:rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.total-price{
+    background:rgb(239, 239, 239);
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.checkout-btn{
+    background: black; 
+    color: white;
+    width: 100%;
+    font-size: 1.8rem;
+    border: none;
+    padding: 1.5rem;
+
+}
+.arrow>img{
+    margin-bottom: 2rem;
+}

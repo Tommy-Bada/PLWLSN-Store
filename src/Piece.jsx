@@ -1,4 +1,5 @@
 import './Piece.css'
+import { Link, NavLink } from 'react-router-dom'
 
 function Piece(props){
     return(
@@ -6,7 +7,7 @@ function Piece(props){
            <img src={props.image} />
            <div>
                 <p>{props.text}</p>
-                <div><img src={props.icon} /></div>
+                <div><Link to="/Store"><img src={props.icon} /></Link></div>
            </div>
         </section>
     )

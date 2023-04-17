@@ -25,6 +25,11 @@ nav{
         list-style-type: none;
         margin-bottom: 2rem;
     }
+    #nav-links>li>a{
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: black;
+    }
     .nav-socials{
         width: 75%;
         display: flex;

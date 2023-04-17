@@ -1,0 +1,43 @@
+.cart-piece{
+    width: 35rem;
+    padding: 1rem;
+    background: white;
+    margin: 1rem;
+
+}
+.cp-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cp-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.cp-number{
+    color: white;
+}
+.cp-lower{
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+    width: 100%;
+}
+.add-button,.minus-button{
+    background: white;
+    border: none;
+    padding: 1rem;
+    width: 4rem;
+    font-size: 1.6rem;
+}
+.add-button:hover, .minus-button:hover{
+    cursor: pointer;
+}
+.cart-image>img{
+    width: 7rem;
+}

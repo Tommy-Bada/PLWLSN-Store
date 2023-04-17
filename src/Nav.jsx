@@ -7,17 +7,18 @@ import instagram from './assets/instagram.png'
 import tiktok from './assets/tiktok.png'
 import snapchat from './assets/snapchat.png'
 import youtube from './assets/youtube.png'
+import { Link, NavLink } from 'react-router-dom'
 
 function Nav(){
     return(
         <nav className='closed-nav'>
             <ul id='nav-links'>
                 <li>HOME</li>
-                <li>BAGS</li>
-                <li>HOODIES</li>
-                <li>SHOES</li>
-                <li>GLASSES</li>
-                <li>ROUND NECKS</li>
+                <li><Link to="/Store">TOPS</Link></li>
+                <li><Link to="/Store">HOODIES</Link></li>
+                <li><Link to="/Store">BOTTOMS</Link></li>
+                <li><Link to="/Store">HOODIES</Link></li>
+                <li><Link to="/Store#acc">ACCESSORIES</Link></li>
             </ul>
             <div className='nav-socials'>
                     <div><img className='social-icon' src={twitter} /></div>

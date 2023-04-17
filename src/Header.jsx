@@ -1,5 +1,6 @@
 import './Header.css'
 import cartIcon from "./assets/cart.png"
+import { Link, NavLink } from 'react-router-dom'
 
 function Header(){
     function openMenuBar(){
@@ -26,14 +27,14 @@ function Header(){
             </div>
             <ul id='header-links'>
                 <li>HOME</li>
-                <li>BAGS</li>
-                <li>HOODIES</li>
-                <li>SHOES</li>
-                <li>GLASSES</li>
-                <li>ROUND NECKS</li>
+                <li><Link to="/Store">TOPS</Link></li>
+                <li><Link to="/Store">HOODIES</Link></li>
+                <li><Link to="/Store">BOTTOMS</Link></li>
+                <li><Link to="/Store#sh">SHOES</Link></li>
+                <li><Link to="/Store#acc">ACCESSORIES</Link></li>
             </ul>
             <h1 className="logo">PL-WLSN</h1>
-            <div><img className="cart-icon" src={cartIcon} /></div>
+            <div><Link to="/Cart" ><img className="cart-icon" src={cartIcon} /></Link></div>
         </header>
     )
 }

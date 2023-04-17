@@ -6,6 +6,7 @@ import two from './assets/prop-1-b.webp'
 import three from './assets/prop-1-c.webp'
 
 
+
 function FirstProp(){
     return(
         <section id="first-prop">
