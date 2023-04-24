@@ -30,8 +30,8 @@ function Header(){
                 <li><Link to="/Store">TOPS</Link></li>
                 <li><Link to="/Store">HOODIES</Link></li>
                 <li><Link to="/Store">BOTTOMS</Link></li>
-                <li><Link to="/Store#sh">SHOES</Link></li>
-                <li><Link to="/Store#acc">ACCESSORIES</Link></li>
+                <li><Link to="/Store">SHOES</Link></li>
+                <li><Link to="/Store">ACCESSORIES</Link></li>
             </ul>
             <h1 className="logo">PL-WLSN</h1>
             <div><Link to="/Cart" ><img className="cart-icon" src={cartIcon} /></Link></div>

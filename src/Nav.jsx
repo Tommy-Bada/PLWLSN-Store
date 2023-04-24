@@ -10,6 +10,16 @@ import youtube from './assets/youtube.png'
 import { Link, NavLink } from 'react-router-dom'
 
 function Nav(){
+
+    // const hash = pathname.split('#')
+
+    // const section = document.querySelector(`#${hash}`)
+    
+    // section.scrollIntoView({
+    // behavior:'smooth' //optional
+    // })
+
+
     return(
         <nav className='closed-nav'>
             <ul id='nav-links'>
