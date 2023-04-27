@@ -14,19 +14,19 @@ function ArticleProp(){
               image = {one}
               title = "HOW TO STYLE OVERSIZED CLOTHING"
               date = "DECEMBER 23, 2022"
-              text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales sed nibh id vehicula. Curabitur dignissim quis lacus sed ullamcorper. Curabitur mauris ex, gravida et nibh sit amet, finibus tempus nulla. Curabitur fermentum..."
+              text = "Upgrade your style this season with oversized tees! Perfect for a relaxed or edgy look, pair them with jeans, high-waisted pants, or layer them over a crop top. Shop our wide selection at PLWLSN Stores and find your new go-to for comfortable and stylish fashion..."
             />
             <ArticlePiece 
               image = {two}
               title = "BEST MEN ACCESORIES FOR THIS SUMMER"
               date = " JANUARY 1, 2023"
-              text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales sed nibh id vehicula. Curabitur dignissim quis lacus sed ullamcorper. Curabitur mauris ex, gravida et nibh sit amet, finibus tempus nulla. Curabitur fermentum..."
+              text = "Elevate your summer style with the latest men's accessories from PLWLSN Stores. From stylish sunglasses to trendy hats and watches, our collection has everything you need to make a statement. Shop now and complete your look with high-quality pieces designed to keep you on-trend all season long..."
             />
             <ArticlePiece 
               image = {three}
               title = "NEW BLANK ESSENTIALS JUST DROPPED"
               date = "JANUARY 4, 2023"
-              text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales sed nibh id vehicula. Curabitur dignissim quis lacus sed ullamcorper. Curabitur mauris ex, gravida et nibh sit amet, finibus tempus nulla. Curabitur fermentum..."
+              text = "Introducing the latest fashion collection from PLWLSN Stores! Featuring the hottest styles and trends for the season, this collection is your ticket to elevating your wardrobe with ease. Shop now and express your unique fashion sense with high-quality pieces you'll love..."
             /> 
           </div> 
         </section>

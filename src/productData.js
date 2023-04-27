@@ -9,6 +9,15 @@ export default [
         totalPrice: "",
         isActive: false
     },
+    {   id:401,
+        title: "SPORT SHOE - FASHIONABLE",
+        price: 9000,
+        description: "mad ass shoes",
+        category: "Shirt",
+        image: "https://res.cloudinary.com/dhuoa5mmo/image/upload/t_Gradient%20fade/v1680587198/plwlsn%20store/shoes/3ed1aed8f3_zs7mc1.jpg",
+        quantity: 1,
+        totalPrice: ""
+    },
     {   id:201,
         title: "HOODIE - BLACK",
         price: 15000,
@@ -27,15 +36,6 @@ export default [
         quantity: 1,
         totalPrice: ""
     },
-    {   id:401,
-        title: "SPORT SHOE - FASHIONABLE",
-        price: 9000,
-        description: "mad ass shoes",
-        category: "Shirt",
-        image: "https://res.cloudinary.com/dhuoa5mmo/image/upload/t_Gradient%20fade/v1680587198/plwlsn%20store/shoes/3ed1aed8f3_zs7mc1.jpg",
-        quantity: 1,
-        totalPrice: ""
-    },
     {   id:503,
         title: "ANALOG CLASSIC - OFFWHITE",
         price: 9000,
@@ -43,6 +43,15 @@ export default [
         category: "Shirt",
         image: "https://res.cloudinary.com/dhuoa5mmo/image/upload/t_Gradient%20fade/v1680587639/plwlsn%20store/accessories/2eedeb3e13_zdlmkg.jpg",
         quantity: 1
+    },
+    {   id:402,
+        title: "NIKE RUNNING SHOES - GREY",
+        price: 6000,
+        description: "mad ass shoes",
+        category: "Shirt",
+        image: "https://res.cloudinary.com/dhuoa5mmo/image/upload/t_Gradient%20fade/v1680584452/plwlsn%20store/shoes/imani-bahati-LxVxPA1LOVM-unsplash_xr1rq6.jpg",
+        quantity: 1,
+        totalPrice: ""
     }
     
 ]

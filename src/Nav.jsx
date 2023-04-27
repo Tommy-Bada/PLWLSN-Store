@@ -8,17 +8,9 @@ import tiktok from './assets/tiktok.png'
 import snapchat from './assets/snapchat.png'
 import youtube from './assets/youtube.png'
 import { Link, NavLink } from 'react-router-dom'
+import { useRef } from 'react'
 
-function Nav(){
-
-    // const hash = pathname.split('#')
-
-    // const section = document.querySelector(`#${hash}`)
-    
-    // section.scrollIntoView({
-    // behavior:'smooth' //optional
-    // })
-
+function Nav(){   
 
     return(
         <nav className='closed-nav'>
@@ -28,7 +20,7 @@ function Nav(){
                 <li><Link to="/Store">HOODIES</Link></li>
                 <li><Link to="/Store">BOTTOMS</Link></li>
                 <li><Link to="/Store">HOODIES</Link></li>
-                <li><Link to="/Store#acc">ACCESSORIES</Link></li>
+                <li><Link to="/Store">ACCESSORIES</Link></li>
             </ul>
             <div className='nav-socials'>
                     <div><img className='social-icon' src={twitter} /></div>

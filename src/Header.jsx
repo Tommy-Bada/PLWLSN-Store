@@ -26,7 +26,7 @@ function Header(){
                 <div className='line'></div>
             </div>
             <ul id='header-links'>
-                <li>HOME</li>
+                <li><Link to="/" >HOME</Link></li>
                 <li><Link to="/Store">TOPS</Link></li>
                 <li><Link to="/Store">HOODIES</Link></li>
                 <li><Link to="/Store">BOTTOMS</Link></li>

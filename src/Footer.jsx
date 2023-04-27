@@ -33,7 +33,7 @@ function Footer(){
                 </div>
                 <div>
                     <h3>THE BRAND</h3>
-                    <p id='brand-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a placerat turpis. Nullam consequat tristique nunc porttitor rhoncus. Nulla eleifend leo aliquam aliquet dignissim.</p>
+                    <p id='brand-text'>At PLWLSN Stores, we are dedicated to providing you with the best selection of high-quality fashion products, outstanding customer service, and an unparalleled shopping experience. Our team of experts brings you the latest trends and styles from around the world, ensuring that you always look and feel your best.</p>
                 </div>
             </div>
             <div id='footer-bottom'>
