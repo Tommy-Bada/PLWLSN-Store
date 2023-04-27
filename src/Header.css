@@ -13,6 +13,21 @@ header{
     text-decoration: none;
     font-size: 1.4rem;
     color: black;
+    transition: all ease 0.2s;
+}
+#header-links>li>a:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+#header-links>li>div{
+    font-size: 1.4rem;
+    display: inline;
+    transition: all ease 0.2s;
+    color: black;
+}
+#header-links>li>div:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 .logo{
     font-size: 3.2rem;

@@ -2,7 +2,7 @@ import './ArticlePiece.css'
 
 function ArticlePiece(props){
     return(
-        <section className="article-piece">
+        <section className="article-piece" id='article'>
             <img src={props.image} />
             <div>
                 <p className='article-piece-title'>{props.title}</p>

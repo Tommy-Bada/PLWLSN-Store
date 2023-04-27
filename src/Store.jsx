@@ -9,6 +9,7 @@ import bottomData from './bottomData'
 import accessoriesData from './accessoriesData'
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom'
+import ScrollIntoView from 'react-scroll-into-view'
 
 function Store(){
 
@@ -140,25 +141,34 @@ function Store(){
                 <div><img onClick={() => nav(-1)} src={arrowLeft} /></div>
                 <div><Link to="/Cart"><img src={cartIcon} /></Link></div>
             </div>
+            <div id="scrollers">
+                <ul>
+                    <li><ScrollIntoView selector="#tops">TOPS</ScrollIntoView></li>
+                    <li><ScrollIntoView selector="#hoodies">HOODIES</ScrollIntoView></li>
+                    <li><ScrollIntoView selector="#bottoms">BOTTOMS</ScrollIntoView></li>
+                    <li><ScrollIntoView selector="#shoes">SHOES</ScrollIntoView></li>
+                    <li><ScrollIntoView selector="#accessories">ACCESSORIES</ScrollIntoView></li>
+                </ul>
+            </div>
             <div id='store-container'>
-                <h2>TOPS</h2>
+                <h2 id='tops'>TOPS</h2>
                 <div>
                     {tops}
                 </div>
-                <h2>HOODIES</h2>
+                <h2 id='hoodies'>HOODIES</h2>
                 <div>
                     {hoodies}
                 </div>
-                <h2>BOTTOMS</h2>
+                <h2 id='bottoms'>BOTTOMS</h2>
                 <div>
                     {bottoms}
                 </div>
-                <h2>SHOES</h2>
-                <div id='sh'>
+                <h2 id='shoes'>SHOES</h2>
+                <div>
                     {shoes}
                 </div>
-                <h2>ACCESSORIES</h2>
-                <div id="acc" >
+                <h2 id="accessories">ACCESSORIES</h2>
+                <div>
                     {accessories}
                 </div>
             </div>

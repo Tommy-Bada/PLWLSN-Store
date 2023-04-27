@@ -30,6 +30,10 @@ nav{
         text-decoration: none;
         color: black;
     }
+    #nav-links>li>div{
+        font-size: 1.4rem;
+        color: black;
+    }
     .nav-socials{
         width: 75%;
         display: flex;

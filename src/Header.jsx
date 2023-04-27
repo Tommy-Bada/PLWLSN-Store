@@ -1,6 +1,7 @@
 import './Header.css'
 import cartIcon from "./assets/cart.png"
 import { Link, NavLink } from 'react-router-dom'
+import ScrollIntoView from 'react-scroll-into-view'
 
 function Header(){
     function openMenuBar(){
@@ -26,12 +27,11 @@ function Header(){
                 <div className='line'></div>
             </div>
             <ul id='header-links'>
-                <li><Link to="/" >HOME</Link></li>
-                <li><Link to="/Store">TOPS</Link></li>
-                <li><Link to="/Store">HOODIES</Link></li>
-                <li><Link to="/Store">BOTTOMS</Link></li>
-                <li><Link to="/Store">SHOES</Link></li>
-                <li><Link to="/Store">ACCESSORIES</Link></li>
+                <li><Link to="/Store">STORE</Link></li>
+                <li><ScrollIntoView selector="#second-prop">QUICK SHOP</ScrollIntoView></li>
+                <li><ScrollIntoView selector="#article">BLOG</ScrollIntoView></li>
+                <li><ScrollIntoView selector="#newsletter">NEWS LETTER</ScrollIntoView></li>
+                <li><ScrollIntoView selector="#brand-text">THE BRAND</ScrollIntoView></li>
             </ul>
             <h1 className="logo">PL-WLSN</h1>
             <div><Link to="/Cart" ><img className="cart-icon" src={cartIcon} /></Link></div>

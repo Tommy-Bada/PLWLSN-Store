@@ -8,19 +8,23 @@ import tiktok from './assets/tiktok.png'
 import snapchat from './assets/snapchat.png'
 import youtube from './assets/youtube.png'
 import { Link, NavLink } from 'react-router-dom'
-import { useRef } from 'react'
+import ScrollIntoView from 'react-scroll-into-view'
 
-function Nav(){   
+function Nav(){ 
+    const hideNav = ()=>{
+        let menu = document.querySelector("nav")
+        menu.classList.remove("opened-nav");
+        menu.classList.add("closed-nav");
+    }  
 
     return(
         <nav className='closed-nav'>
             <ul id='nav-links'>
-                <li>HOME</li>
-                <li><Link to="/Store">TOPS</Link></li>
-                <li><Link to="/Store">HOODIES</Link></li>
-                <li><Link to="/Store">BOTTOMS</Link></li>
-                <li><Link to="/Store">HOODIES</Link></li>
-                <li><Link to="/Store">ACCESSORIES</Link></li>
+                <li><Link to="/Store">STORE</Link></li>
+                <li onClick={hideNav}><ScrollIntoView selector="#second-prop">QUICK SHOP</ScrollIntoView></li>
+                <li onClick={hideNav}><ScrollIntoView selector="#article">BLOG</ScrollIntoView></li>
+                <li onClick={hideNav}><ScrollIntoView selector="#newsletter">NEWS LETTER</ScrollIntoView></li>
+                <li onClick={hideNav}><ScrollIntoView selector="#brand-text">THE BRAND</ScrollIntoView></li>
             </ul>
             <div className='nav-socials'>
                     <div><img className='social-icon' src={twitter} /></div>
