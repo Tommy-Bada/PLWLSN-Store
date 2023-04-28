@@ -105,7 +105,7 @@ function Cart(){
             <p className='total-price'>
                 Total:&#x20A6;{totalAmount.toLocaleString()}
             </p>
-            <div><button className='checkout-btn'>Checkout</button></div>
+            <div><a href="https://paystack.com/pay/plwlsnstore"><button className='checkout-btn'>Checkout</button></a></div>
         </div>
     )
 }
